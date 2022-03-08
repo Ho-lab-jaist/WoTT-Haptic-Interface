@@ -10,7 +10,6 @@ A WoT client that consumes the exposed thing to communicate with *haptic jacket*
    
 ## Built With
 - WoT Client
-	- python
 	- wotpy
 	- hapticAPI
 
