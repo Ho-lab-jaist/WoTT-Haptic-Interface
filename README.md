@@ -6,16 +6,9 @@ Open and Standardized interfaces for Tactile Things via W3C Web of Things
 
  - This project implements:
 
-   1. A module, namely *WoTTServer*, to expose a *tactile device* as a W3C *Thing* so that W3C Web of Things clients can interact with the *tactile device* via WoT APIs
-   2. A WoT client that consumes the exposed thing to communicate with *haptic jacket* (vibration modules) via WoT APIs and HapTic APIs
+A WoT client that consumes the exposed thing to communicate with *haptic jacket* (vibration modules) via WoT APIs and HapTic APIs
    
 ## Built With
-- WoTTServer
-  - python
-  - wotpy
-  - pytorch
-  - torchvision
-  - opencv
 - WoT Client
 	- python
 	- wotpy
@@ -28,9 +21,9 @@ $ sudo nano /etc/hosts
 ```
 Then add:
 ```
-$ 150.65.152.91  	ho-lab
+$ 150.65.xxx.xx  	ho-lab
 ```
-[150.65.152.91] is the ip address of JAIST WoTT server.
+[150.65.xxx.xx] is the ip address of JAIST WoTT server.
 Then run:
 ```
 $ python codes/WoTTClientHapticJacketInterface.py
