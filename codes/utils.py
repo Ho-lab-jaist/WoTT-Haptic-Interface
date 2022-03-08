@@ -76,7 +76,6 @@ class SensingCells(object):
         largest_deformed_node_id = deformed_node_ids[np.argmax(deformed_node_intensities)]
         cspace_node = self.init_points[largest_deformed_node_id]
         touched_cell = self.check_in_cell(cspace_node)
-        print('Alala')
         return touched_cell
 
     def update(self, item):
