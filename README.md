@@ -6,7 +6,7 @@ Open and Standardized interfaces for Tactile Things via W3C Web of Things
 
  - This project implements:
 
-A WoT client that consumes the exposed thing to communicate with *haptic jacket* (vibration modules) via WoT APIs and HapTic APIs
+A WoT client that consumes the exposed thing to communicate with *haptic jacket* (vibration modules) via WoT APIs and hapticAPI
    
 ## Built With
 - WoT Client
