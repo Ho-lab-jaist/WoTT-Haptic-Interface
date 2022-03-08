@@ -18,7 +18,7 @@ Open and Standardized interfaces for Tactile Things via W3C Web of Things
   - opencv
 - WoT Client
 	- python
-	- WoTpy
+	- wotpy
 	- hapticAPI
 
 ## Getting Started
